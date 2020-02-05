@@ -72,19 +72,26 @@ textarea{
   
 .button{
   float: right;
+  background-color: teal;
+  height:100px;
 }
 
 #save{
   height: 30px;
+  
 }
 
 .agenda{
-  width: 500px;
-  background-color: teal;
+  width: 1000px;
+  background-color: gray;
 }
 
 th{
   background-color: #06AED5;
   text-align: center;
-  width: 75px;
+  width: 200px;
+}
+
+.hour{
+  height: 100px;
 }
