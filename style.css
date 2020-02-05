@@ -70,3 +70,21 @@ textarea{
     transition: all .3s ease-in-out;
   }
   
+.button{
+  float: right;
+}
+
+#save{
+  height: 30px;
+}
+
+.agenda{
+  width: 500px;
+  background-color: teal;
+}
+
+th{
+  background-color: #06AED5;
+  text-align: center;
+  width: 75px;
+}
