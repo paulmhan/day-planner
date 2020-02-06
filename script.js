@@ -1,14 +1,13 @@
-//create html variables here
-let saveButton = $("#save")
-
-
 $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+
+//create html variables here
+let saveButton = $(".save")
 
 
 saveButton.on("click", saveAgenda);
-var person = $(this).attr("data-person");
-
 
 function saveAgenda(){
+    
 
 }
+
