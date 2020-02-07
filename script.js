@@ -41,13 +41,26 @@ let hour = $(".hour")
 //function that changes color of schedule text box based on what hour it is
 function checkTime(){
    hour.each(function(){
-       console.log($(this).children().attr("id"));
+    //    let currentTime = moment().format('HH');
+       let currentTime = 12
+       let plannerTime = $(this).children().attr("id")
+       console.log(currentTime);
+       console.log(plannerTime);
+
+    //    console.log($(this).children().attr("id"));
+    //    console.log(moment().format('HH'))
+       if(currentTime < plannerTime){
+        schedule.css("background-color", "#77dd77");
+       }
+       else if(currentTime === plannerTime){
+        schedule.css("background-color", "#ff6961");
+       }
+
+       else{
+        schedule.css("background-color", "grey");
+       }
    })
 }
 
 checkTime();
 
-//todo list:
-// 1) make the agenda boxes text boxes
-// 2) create save function that gets the agenda box and saves to local storage
-// 3) create function that colors the agenda boxes red for current hour, green for future hours, or current grey for past
