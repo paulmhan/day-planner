@@ -5,7 +5,7 @@
 
 Using the table element, I was able to quickly construct rows representing hours, and columns representing the time, agenda, and save function. It is easy to interpret and use. There is a jumbotron that tells the user the date and the function of the day planner. 
 
-![Alt text](images/day-planner.png?raw=true)
+![Alt text](assets/images/day-planner.png?raw=true)
 
 
 # Saving the Agenda
