@@ -1,4 +1,4 @@
-# Coding Quiz
+# Day Planner   
 ## HW Assignment 4
 
 # Layout 
